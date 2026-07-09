@@ -118,23 +118,14 @@ The pipeline includes several validation steps:
 airbnb-databricks-elt-pipeline/
 │
 ├── notebooks/
-│   ├── 01_bronze_ingestion.py
-│   ├── 02_silver_transformation.py
-│   └── 03_gold_aggregation.py
+│   ├── 01_airbnb_bronze.ipynb
+│   ├── 02_airbnb_silver.ipynb
+│   └── 03_airbnb_gold.ypynb
 │
-├── images/
-│   └── architecture.png
 │
 └── README.md
 ```
 
----
 
-## 🚀 Key Features
-
-- Medallion Architecture
-- Delta Lake tables
-- Data Quality validations
-- PySpark transformations
 - Incremental-ready pipeline
 - Business KPI generation
